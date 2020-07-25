@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-update = "https://raw.githubusercontent.com/aflextr/ProxyScraper-API/master/myapi.py"
+update = "https://raw.githubusercontent.com/aflextr/ProxyScraper-API/master/proxy.py"
 uplink = requests.get(update)
 up = BeautifulSoup(uplink.content, "html.parser")
 
