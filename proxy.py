@@ -6,7 +6,7 @@ update = "https://raw.githubusercontent.com/aflextr/ProxyScraper-API/master/prox
 uplink = requests.get(update)
 up = BeautifulSoup(uplink.content, "html.parser")
 
-version = ("V0.1")
+version = ("V0.2")
 
 if version in up.text:
     print("Program güncel")
