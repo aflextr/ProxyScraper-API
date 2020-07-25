@@ -25,7 +25,7 @@ if secim =="1":
 elif secim =="2":
     os.system('python3 myapi.py')
 elif secim =="3":
-    os.system('rm -r list/proxy.txt src/regex.txt')
+    os.system('rm -r list/proxy.txt && rm -r src/regex.txt && rm -r list/apiproxy.txt ')
     
 print("Yakında Program güncellenecektir.")
  
