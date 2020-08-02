@@ -7,10 +7,16 @@ uplink = requests.get(update)
 up = BeautifulSoup(uplink.content, "html.parser")
 
 
-if "V0.4" in up.text:
-    print("Program güncel")
+if "V0.3" in up.text:
+    print("Program guncel")
 else:
-    print("Program güncel değil")
+    print("Program guncel degil")
+    print("1-Guncelle.")
+    print("2-Devam et.")
+    secim4 = input(":")
+    if secim4 =="1":
+        os.system('rm -r * && git clone https://github.com/aflextr/ProxyScraper-API.git && mv ProxyScraper-API/* . && rm -r ProxyScraper-API/')
+        
 
 
 url1 = "https://proxy-daily.com/"
