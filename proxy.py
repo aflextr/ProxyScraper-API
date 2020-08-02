@@ -7,7 +7,7 @@ uplink = requests.get(update)
 up = BeautifulSoup(uplink.content, "html.parser")
 
 
-if "V0.3" in up.text:
+if "V0.4" in up.text:
     print("Program güncel")
 else:
     print("Program güncel değil")
