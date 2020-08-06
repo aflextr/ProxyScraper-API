@@ -6,6 +6,7 @@ update = "https://raw.githubusercontent.com/aflextr/ProxyScraper-API/master/prox
 uplink = requests.get(update)
 up = BeautifulSoup(uplink.content, "html.parser")
 
+
 version = "V0.3"
 
 
@@ -48,3 +49,4 @@ elif secim =="3":
     
 print("Yakında Program güncellenecektir.")
  
+
