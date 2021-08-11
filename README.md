@@ -1,5 +1,7 @@
 # ProxyScraper-API
 
+YENİ GÜNCELLEME SONRASI ÇALIŞMAMAKTADIR.
+
 İNSTALL
 
 ./install.sh
